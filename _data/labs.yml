@@ -1,0 +1,9 @@
+- pi_name: "Dr. Example Name"
+  department: "Systems Design Engineering"
+  lab_name: "Human Performance Lab"
+  url: "https://www.westernu.ca/your-lab-link"
+
+- pi_name: "Dr. Another Researcher"
+  department: "Kinesiology"
+  lab_name: "Ergonomics & Biomechanics Lab"
+  url: "https://www.westernu.ca/another-lab"
