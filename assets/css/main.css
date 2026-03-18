@@ -1,0 +1,93 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+}
+
+a {
+    color: #4F2683;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.site-main {
+    padding: 2.5rem 0 3rem;
+}
+
+/* ── Top bar (Western) ────────────────────── */
+.western-topbar {
+    background: #1e0b3d;        /* very dark purple */
+    padding: 0.4rem 0;
+    font-size: 0.78rem;
+}
+
+.topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar-home {
+    color: #c8aff0;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.topbar-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.topbar-links a {
+    color: #a89cc8;
+}
+
+.topbar-links a:hover,
+.topbar-home:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ── HFES Main nav ────────────────────────── */
+.hfes-nav {
+    background: #4F2683;        /* Western purple */
+    border-bottom: 3px solid #3a1a66;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item a {
+    display: block;
+    padding: 0.9rem 1.1rem;
+    color: #e0d0ff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-item a:hover,
+.nav-item.active a {
+    background: #3a1a66;
+    color: #fff;
+    text-decoration: none;
+}

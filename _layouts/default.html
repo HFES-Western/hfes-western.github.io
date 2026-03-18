@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | HFES Western</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+
+{% include topbar.html %}
+{% include header.html %}
+{% include nav.html %}
+
+<main class="site-main">
+    <div class="container">
+        {{ content }}
+    </div>
+</main>
+
+{% include footer.html %}
+
+</body>
+</html>

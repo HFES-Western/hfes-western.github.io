@@ -1,34 +1,16 @@
-title: HFES Western Student Chapter
-description: Human Factors and Ergonomics Society at Western University.
-baseurl: "" # empty for now for hfes-western.github.io
+title: "HFES Western Student Chapter"
+description: "Human Factors and Ergonomics Society at Western University"
+baseurl: "/HFES-Western"
 url: "https://hfes-western.github.io"
-
-# theme
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "plum"
-
-logo: "/assets/images/blue.jpeg"
 locale: "en-CA"
 
-# need to edit later
-author:
-  name: "HFES Western"
-  bio: "Student Chapter at Western University"
-  location: "London, ON, Canada"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://hfes-western.github.io"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/westernu_hfes" # Replace with your actual handle
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "https://linkedin.com/westernu"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/westernu"
+# No theme, no remote_theme, no plugins for themes
 
 plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
+  - jekyll-feed          # optional, generates RSS feed
+  - jekyll-seo-tag       # optional, adds meta tags for SEO
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
