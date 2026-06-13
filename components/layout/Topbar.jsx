@@ -10,7 +10,7 @@ export default function Topbar() {
                     rel="noopener noreferrer"
                     className="font-semibold tracking-widest uppercase hover:text-purple-200 transition-colors"
                 >
-                    Western University
+                    Western University (logo here instead)
                 </Link>
                 <div className="hidden sm:flex items-center gap-6 text-purple-200">
                     <Link href="https://www.uwo.ca/research" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Research</Link>

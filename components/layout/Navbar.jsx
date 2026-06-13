@@ -17,7 +17,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-3">
                         <div className="w-9 h-9 bg-[#4F2683] flex items-center justify-center text-white font-bold text-sm rounded-sm select-none">
-                            W
+                            W Logo
                         </div>
                         <div className="leading-tight">
                             <div className="text-[10px] text-[#807F83] uppercase tracking-widest font-medium">Western University</div>

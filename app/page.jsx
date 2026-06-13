@@ -15,7 +15,7 @@ function Hero() {
                             <span className="text-purple-300">Ergonomics Society</span>
                         </h1>
                         <p className="text-purple-100 text-lg leading-relaxed max-w-lg mb-8">
-                            Promoting and advancing the understanding of human factors — the science of designing systems, environments, and devices that work for people.
+                            Promoting and advancing the understanding of human factors where we design systems, environments, and devices that work for people.
                         </p>
                         <div className="flex flex-wrap gap-3 justify-center md:justify-start">
                             <Link href="/events" className="bg-white text-[#4F2683] px-6 py-3 text-sm font-semibold hover:bg-purple-100 transition-colors rounded-sm">
@@ -29,14 +29,14 @@ function Hero() {
 
                     {/* HFES badge */}
                     <div className="flex-shrink-0 flex flex-col items-center gap-3">
-                        <div className="w-40 h-40 md:w-52 md:h-52 rounded-full bg-white/10 border-2 border-purple-400 flex items-center justify-center">
-                            <div className="text-center px-4">
+                        {/*<div className="w-40 h-40 md:w-52 md:h-52 rounded-full bg-white/10 border-2 border-purple-400 flex items-center justify-center">*/}
+                        {/*    <div className="text-center px-4">*/}
                                 <div className="text-5xl md:text-6xl font-bold tracking-tight text-white">HFES</div>
                                 <div className="text-xs text-purple-300 tracking-widest uppercase mt-1">Western</div>
-                            </div>
-                        </div>
+                        {/*    </div>*/}
+                        {/*</div>*/}
                         <p className="text-xs text-purple-300 tracking-wide">
-                            Systems That Work for <strong className="text-white">Humans</strong>
+                            Systems That Work for <strong className="text-xs text-purple-300 tracking-wide">Humans</strong>
                         </p>
                     </div>
                 </div>
@@ -98,7 +98,6 @@ function About() {
                         {[
                             { label: "Human Factors and Ergonomics Society", url: "https://www.hfes.org" },
                             { label: "Western Engineering", url: "https://www.eng.uwo.ca" },
-                            { label: "Western Kinesiology", url: "https://www.uwo.ca/kinesiology" },
                             { label: "Western Computer Science", url: "https://www.csd.uwo.ca" },
                         ].map((l) => (
                             <li key={l.label}>
